@@ -1,0 +1,14 @@
+.unfinish {
+	font-weight: bold;
+	opacity: 0.4;
+	text-shadow: 0.05em 0.05em #000000;
+
+}
+.finishclear {
+	font-weight: bold;
+	color: #00de00;
+	text-shadow: 0.04em 0.03em #000000;
+}
+.handleButton {
+	float: right;
+}
