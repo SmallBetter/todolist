@@ -10,7 +10,9 @@ class TodoInput extends Component {
   handleEnter = event => {
     if (event.key === 'Enter' && this.state.text.length) {
       this.props.handleNewTodo(this.state.text)
-      this.setState.text = ''
+      this.setState({
+        text: '',
+      })
     }
   }
 
